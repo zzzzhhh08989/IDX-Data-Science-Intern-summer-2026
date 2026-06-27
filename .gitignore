@@ -1,0 +1,27 @@
+# Data (licensed CRMLS/MLS data, large files — not for GitHub)
+data/
+
+# Tableau workbooks & large analysis exports (>100MB, exceed GitHub limit)
+analysis/
+
+# Large/copyrighted PDFs
+resources/Data_Science_for_Business.pdf
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Generic large data formats (safety net)
+*.csv
+*.twbx
+*.parquet
